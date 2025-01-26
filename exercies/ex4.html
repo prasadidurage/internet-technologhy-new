@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex4</title>
+    <style>
+        table, th, td{
+            border : 1.5px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 400px; text-align: justify ;">
+        <tr style="height: 50px;">
+            <td colspan="4"> Personal Information</td>
+        </tr>
+        <tr style="height: 50px;">
+            <td> Name</td>
+            <td 
+            colspan="3"><lable for = "Name">  </lable>
+                <input type="text" placeholder="enter your  name hear" />
+            </td>
+        </tr>
+        <tr style="height: 50px;">
+            <td> Age</td>
+            <td colspan="3"><lable for = "Age">  </lable>
+                <input type="number" value="18"/></td>
+        </tr>
+        <tr style="height: 50px;">
+            <td rowspan="3">Address</td>
+            <td>Street</td>
+            <td colspan="2">
+                <lable for = "street">  </lable>
+                <input type="text" placeholder="Street" />
+            </td>
+        </tr>
+        <tr style="height: 50px;">
+            <td>City</td>
+            <td colspan="2">
+                <lable for = "city">  </lable>
+                <input type="text" placeholder="City" />
+            </td>
+        </tr>
+        <tr style="height: 50px;">
+            <td>Zip Code</td>
+            <td colspan="2">
+                <lable for = "zip ">  </lable>
+                <input type="text" placeholder="Zip Code" />
+            </td>
+        </tr>
+        <tr style="height: 50px;">
+            <td colspan="4">Additional Information</td>
+            
+        </tr>
+        <tr style="height: 50px;">
+            <td colspan="4" rowspan="2"><textarea name="massage" id="massage" rows="5" cols="100"></textarea></td>
+            
+        </tr>
+        <tr style="height: 50px;">
+         
+            
+        </tr>
+        <tr style="height: 50px;">
+            <td colspan="4">
+                <button type="button">Submit</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

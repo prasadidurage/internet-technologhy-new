@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Form element -->
+  <h2>Form Element</h2>
+
+  <strong>========== 1. Leble =========</strong>
+  <br/>
+  <lable for = "user name">  User Name</lable>
+
+  <br/>
+  <hr/>
+  <strong>========== 2. Input =========</strong>
+  <p> ------text input-------</p>
+  <lable for = "First name">  First Name  :</lable>
+  <input type="text" placeholder="eneter your first name hear" maxlength="10" readonly/>
+  <br/>
+  <p> ------Number input-------</p>
+  <lable for = "age">  Age  :</lable>
+  <input type="number" placeholder="eneter your age" maxlength="3" value="18"/>
+  <br/>
+  <p> ------Password input-------</p>
+  <lable for = "password">  Password  :</lable>
+  <input type="password" placeholder="eneter your password" >
+  <br/>
+  <p> ------Date input-------</p>
+  <lable for = "date">  Date  :</lable>
+  <input type="date" />
+  <br/>
+  <p> ------Redio button input-------</p>
+  <lable for = "male">  Male </lable>
+  <input type="radio" name="gender" />
+  <lable for = "female">  Female </lable>
+  <input type="radio" name="gender"/>
+  <br/>
+  <p> ------Cheack box-------</p>
+  <lable for = "remember">  Remember Me</lable>
+  <input type="checkbox" name="remember"/>
+  <br/>
+  <p> ------File uplord-------</p>
+  <lable for = "file">  choose the file  : </lable>
+  <input type="file" />
+
+  <br/>
+  <hr/>
+  <strong>========== 3.Text Area =========</strong>
+  <br/>
+  <textarea name="massage" id="massage" placeholder=" enter your massage" rows="" cols="100"></textarea>
+
+  <br/>
+  <hr/>
+  <strong>========== 4.Button =========</strong>
+  <br/>
+  <button type="button">Click me</button>
+  <br/>
+  <!-- meken button eka click karama altet ekak ganna puluwan -->
+  <button onclick="alert('hello word')">Click me</button>
+
+  <br/>
+  <hr/>
+  <strong>========== 5.Select =========</strong>
+  <br/>
+  <select name="technologhys" id="tech"> 
+    <option value="java">java</option>
+    <option value="phython">phython</option>
+    <option value="c++">c++</option>
+  </select>
+
+  <br/>
+  <hr/>
+  <strong>========== 6.Field and legent =========</strong>
+  <br/>
+  <fieldset>
+    <legend >Personal Information</legend>
+    <lable for = "First name">  First Name  :</lable>
+    <input type="text"  />
+    <lable for = "lasr name">  Last Name  :</lable>
+    <input type="text"  />
+    
+  </fieldset>
+
+  <br/>
+  <hr/>
+  <strong>========== 7.Form =========</strong>
+  <br/>
+  <form action="">
+    <label for="first name">First name :</label>
+    <input type="text" name="firstName" id="firstName" required/>
+    <br/>
+    <label for="second name">second name :</label>
+    <input type="text" name="secondName" id="secondName" required/>
+    <br/>
+    <button type="submit">Submit</button>
+  </form>
+
+
+</body>
+</html>
