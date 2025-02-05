@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson-css-specificity</title>
+    <style>
+        p{
+            background-color: aquamarine;
+        }
+        .contant {
+            background-color: blue;
+        }
+        #main-contant{
+            background-color: burlywood;
+        }
+        div p{
+            background-color: darkcyan;
+        }
+        div.contant{
+            background-color: chartreuse;
+        }
+        div #main-content{
+            background-color: blanchedalmond;
+        }
+        #card #main-content{
+            background-color: coral;
+        }
+    </style>
+</head>
+<body>
+    <div id="card" class="catd-conterner">
+        <p class="content" id="main-content" style="background-color: antiquewhite;">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Iste recusandae iure distinctio quam earum corporis, sequi praesentium molestiae ex? 
+            Dolorem numquam enim eveniet laboriosam magni id quo nostrum itaque, quis rem omnis eius dignissimos nesciunt, 
+            dolore recusandae reprehenderit tempore corporis!</p>
+    </div>
+</body>
+</html>
