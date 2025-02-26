@@ -1,0 +1,23 @@
+body{
+}
+
+#title{
+    color: black;
+    border: 1px solid yellow;
+    text-align: center;
+}
+.main{
+    display: flex;
+   
+}
+
+.image1{
+    width: 300px; 
+    height: 400px; 
+    object-fit: cover;
+}
+#name{
+    font-size: large;
+    color: brown;
+   
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex-10</title>
+    <Style>
+        body{
+            background-color: lightsteelblue;
+            
+        }
+        .card{
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            border-radius: 10%;
+            box-shadow: 0 0 10px gray;
+            transition: transform 0.5s ease-in-out ;
+            
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            height: 100vh;
+            
+            
+        }
+
+     span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px; 
+
+     }
+
+     .card:hover{
+        scale: 1.5;
+        
+     }
+    
+     
+     .card1:hover{
+        transition: transform 3s ease-in-out 1s;
+        
+
+     }
+
+     .imoji{
+        font-size: 30px;
+        transition: font-size 0.5s ease-in-out ;
+     }
+
+     .imoji:hover{
+        font-size: 35px;
+     }
+
+     .text{
+        opacity: 0;
+        transition: font-size 0.2s ease-in-out ;
+
+
+     }
+
+     .text:hover{
+        opacity: 1;
+        font-size: 28px;
+     }
+
+
+
+
+    </Style>
+</head>
+<body>
+    <div class="container">
+    
+        <div class=" card card1"><span class="imoji"> 😁 </span>  
+            <span class="text">smile</span>   
+    </div>
+        <div class="card card2"><span class="imoji"> 😭 </span>
+            <span class="text">crying</span>
+        </div>
+        <div class="card card3"><span class="imoji"> 😍 </span>
+            <span class="text">Love</span>
+        </div>
+        <div class="card card1"><span class="imoji"> 🤭 </span>
+            <span class="text">Shy</span></div>
+    </div>
+
+</body>
+</html>

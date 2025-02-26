@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson CSS Gride</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .container{
+            display: grid;
+            /* grid-template-columns: 50% 10% 30% 20%; */
+
+            /* grid-template-columns: 1fr 4fr 2fr; */
+
+            grid-template-columns: repeat(2,1fr 2fr);
+            column-gap: 12px;
+        }
+        .container>div{
+            background-color: bisque;
+            border: 1px solid black;
+            padding: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>👀Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi inventore magnam dolorum illo repellendus fuga iste tempore amet ad, perspiciatis fugit odio incidunt, molestias aspernatur perferendis voluptatem velit rerum obcaecati consectetur temporibus voluptate exercitationem optio quia provident? Iusto, maxime eaque?</div>
+        <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi inventore magnam dolorum illo repellendus fuga iste tempore amet ad, perspiciatis fugit odio incidunt, molestias aspernatur perferendis voluptatem velit rerum obcaecati consectetur temporibus voluptate exercitationem optio quia provident? Iusto, maxime eaque?</div>
+        <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi inventore magnam dolorum illo repellendus fuga iste tempore amet ad, perspiciatis fugit odio incidunt, molestias aspernatur perferendis voluptatem velit rerum obcaecati consectetur temporibus voluptate exercitationem optio quia provident? Iusto, maxime eaque?</div>
+        <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi inventore magnam dolorum illo repellendus fuga iste tempore amet ad, perspiciatis fugit odio incidunt, molestias aspernatur perferendis voluptatem velit rerum obcaecati consectetur temporibus voluptate exercitationem optio quia provident? Iusto, maxime eaque?</div>
+    </div>
+</body>
+</html>
